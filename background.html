@@ -1,0 +1,171 @@
+
+ <!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>About Us - Azzah</title>
+  <style>
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: darkslategrey;
+      color: white;
+    }
+
+     .navbar {
+      background-color: AntiqueWhite;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 30px;
+      position: sticky;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    .logo {
+      color: darkslategrey;
+      font-size: 30px;
+      font-family: 'Brush Script MT'; /
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+      margin: 0;
+      padding: 0;
+    }
+
+    .nav-links li a {
+      color: darkslategrey;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 15px;
+      transition: color 0.3s;
+    }
+
+    .nav-links li a:hover {
+      color: black;
+    }
+
+
+    .about-section {
+      max-width: 1000px;
+      margin: 50px auto;
+      background-color: white;
+      color: black;
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+      display: flex;
+      gap: 30px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .about-img {
+      flex: 1 1 300px;
+      max-width: 400px;
+      border-radius: 15px;
+      width: 100%;
+      object-fit: cover;
+    }
+
+    .about-content {
+      flex: 2 1 400px;
+    }
+
+    .about-title {
+      font-size: 2.5em;
+      color: darkgreen;
+      margin-bottom: 20px;
+      font-family: Georgia, serif;
+    }
+
+    .about-text {
+      font-size: 1.15em;
+      line-height: 1.8;
+      color: dimgray;
+    }
+
+    .about-text span {
+      color: saddlebrown;
+      font-weight: bold;
+    }
+
+    @media (max-width: 768px) {
+      .navbar {
+        flex-direction: column;
+      }
+
+      .navbar a {
+        margin: 10px 0;
+      }
+
+      .about-section {
+        flex-direction: column;
+        padding: 25px;
+        margin: 20px;
+      }
+
+      .about-title {
+        font-size: 2em;
+      }
+
+      .about-text {
+        font-size: 1em;
+      }
+
+      footer {
+            text-align: center;
+            background-color: lightgray;
+            color: black;
+            font-size: 18px;
+            font-style: italic;
+            padding: 15px;
+            margin-top: 20px;
+        }
+
+
+  </style>
+</head>
+<body>
+
+  <nav class="navbar">
+    <img src="image/logo.png" style="width: 70px" height="70px" ;>
+    <div class="logo">Welcome to Wanpaku Coffee Cafe</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <section class="about-section">
+    <img src="image/pic.jpg" alt="wanpaku coffee" class="about-img">
+
+    <div class="about-content">
+      <h1 class="about-title">About Us</h1>
+      <p class="about-text">
+        <span>Wanpaku</span> was established in 2021 with a clear mission to serve food and beverages that not only satisfy the palate, but also evoke a sense of timeless elegance through a modern classic atmosphere.<br><br>
+
+        Inspired by a lifestyle that is both relaxed and refined, <span>Wanpaku Cafe</span> brings the modern classic concept into every corner of our space and every dish we serve. Soft tones like dark green, white, and soft brown symbolize our calm, clean, and character-filled identity.<br><br>
+
+        We believe that every visit is more than just a meal it’s a moment to create memories, whether alone, with friends, or with loved ones.<br><br>
+
+        Welcome to <span>Wanpaku</span> where every flavor tells a story.
+      </p>
+    </div>
+  </section>
+
+  <footer style="text-align: center; background-color: antiquewhite; color: black; font-size: 18px; font-style: italic; padding: 15px; margin-top: 20px;">
+    <div class="footer">
+      © 2025 Nur Azzah Alyaa. All Rights Reserved.
+  </footer>
+
+</body>
+</html>
+
+
